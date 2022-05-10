@@ -18,7 +18,7 @@ deploy:
   app: docker-react-app3
   env: DockerReactApp3-env
   bucket_name: elasticbeanstalk-us-west-1-481045552926
-  bucket_path: docker-react-app
+  bucket_path: docker-react-app3
   on:
       branch: master
   access_key_id: $AWS_ACCESS_KEY
